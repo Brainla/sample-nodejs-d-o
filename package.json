@@ -4,7 +4,7 @@
   "main": "server.ts",
   "scripts": {
     "start": "node ./bin/www",
-    "backend-build": "npm install typescript && NPM_CONFIG_PRODUCTION=false npx tsc && npm install --prefix ./client && npm run build --prefix ./client"
+    "build:digitalocean": "npm install typescript && NPM_CONFIG_PRODUCTION=false npx tsc && npm install --prefix ./client && npm run build --prefix ./client"
   },
   "license": "ISC",
   "devDependencies": {
